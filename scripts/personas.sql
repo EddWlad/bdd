@@ -13,16 +13,16 @@ create table personas
 )
 
 insert into personas(cedula,nombre,apellido)
-values ('1720723640','Edison','Morocho')
+values ('1720723640','Edison','Morocho');
 
 insert into personas(cedula,nombre,apellido,estatura)
-values ('1720723631','Dennys','Morocho',1.69)
+values ('1720723631','Dennys','Morocho',1.69);
 
 insert into personas(cedula,nombre,apellido,numero_hijos)
-values ('1720723635','Stalin','Morocho',2)
+values ('1720723635','Stalin','Morocho',2);
 
 insert into personas(cedula,nombre,apellido,estatura,fecha_nacimiento,hora_nacimiento,cantidad_ahorrada,numero_hijos)
-values ('1720723611','Dennys','Morocho',1.69,'20/01/1992','06:15',200.34,2)
+values ('1720723611','Dennys','Morocho',1.69,'20/01/1992','06:15',200.34,2);
 
 select cedula,nombre,numero_hijos from personas 
 
