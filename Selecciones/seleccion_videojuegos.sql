@@ -1,17 +1,8 @@
---select numero_hijos, * from personas where numero_hijos=2
+select * from videojuegos
+where nombre like 'C%'
 
-select * from personas
-where numero_hijos != 1
+select * from videojuegos
+where valoracion between 9 and 10
 
-where estatura is null
-
-where apellido like '%n%'
-
-where hora_nacimiento = '06:15'
-between '10/06/1995' and '20/01/1992'
-
-insert into personas(cedula,nombre,apellido,fecha_nacimiento)
-values('0714616123','Jefferson','Farfan','10/06/1995');
-
-insert into personas(cedula,nombre,apellido,fecha_nacimiento)
-values('0714616124','Jefferson','Farfan','10/06/1995');
+select * from videojuegos
+where descripcion is null
